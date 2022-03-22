@@ -2209,7 +2209,10 @@ input, select, textarea {
 
 		.icon.major {
 			display: block;
-			margin: 0 0 1em 0;
+            margin: 0 auto;
+            max-width: 5em;
+            height: 5em;
+            padding-bottom: 1em;
 		}
 
 			.icon.major:before {
@@ -2334,6 +2337,8 @@ input, select, textarea {
 /* Icons Grid */
 
 	ul.icons-grid {
+        display: flex;
+        flex-wrap: wrap;
 		list-style: none;
 		padding: 0;
 		position: relative;
